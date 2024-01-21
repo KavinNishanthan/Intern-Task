@@ -4,11 +4,14 @@
 
  ## Screen Shots 
 
+<img width="1280" alt="Screenshot 2024-01-22 at 1 22 41 AM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/0f4b5ab8-d6d1-4c58-8033-983925dfdcc3">
 
- <img width="1280" alt="Screenshot 2024-01-21 at 10 06 12 PM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/a696449f-feff-4d8b-833e-50105710cf74">
+
+<img width="1280" alt="Screenshot 2024-01-22 at 1 22 57 AM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/26b84bb5-3436-41b7-a054-4fd80b3986ed">
 
 
- <img width="1280" alt="Screenshot 2024-01-21 at 10 06 20 PM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/68a60516-14a9-4d67-8626-dd111e72f3d7">
+<img width="1280" alt="Screenshot 2024-01-22 at 1 23 03 AM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/8d15996e-a77a-4395-9c46-428300fa60c7">
+
 
 
 
@@ -24,9 +27,9 @@
 
  1. Clone the repository
 
- 2. Open the `index.html` file in your preferred web browser.
+ 2. Open the `search.html` file in your preferred web browser.
 
- 3. Enter a GitHub username and click "Search" to view the user's profile and repositories.
+ 3. Enter a GitHub username and click "Search" to view the user's profile and repositories
 
  ## Features
 
@@ -48,8 +51,9 @@
  - Bootstrap
  - Font Awesome
 
+ # Live Demo
 
-Replace "KavinNishanthan" and "Intern-Task" with your actual GitHub username and repository name. Save the changes to the README.md file.
+ - You can check out the live demo [here](https://git-scm.com/).
 
-Once you have committed and pushed these changes to your GitHub repository, users can click on the link in your README to access the live demo.
+
 
