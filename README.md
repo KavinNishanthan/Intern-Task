@@ -2,6 +2,13 @@
 
 This web application allows users to search for a GitHub username and view their repositories. The application displays the user's profile information along with a list of repositories. Users can use the search feature to filter repositories by name and adjust the number of repositories displayed per page.
 
+## Screen Shots 
+
+<img width="1280" alt="Screenshot 2024-01-21 at 9 43 50 PM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/8f772751-e76f-4bdb-a6c4-43228bf94959">
+
+<img width="1280" alt="Screenshot 2024-01-21 at 9 43 50 PM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/b56e08a5-e4c7-4f50-978e-d1f42eef891a">
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -37,5 +44,6 @@ Make sure you have the following tools installed:
 - JavaScript (Fetch API)
 - Bootstrap
 - Font Awesome
+
 
 
