@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,7 @@
 </head>
 
 
-<body>
-
+<body class="bodyy">
     <!-- Header Start -->
     <div>
         <nav class="navbar bg-body-tertiary">
@@ -56,13 +56,13 @@
 
 
         <div style="margin-left: 20px; display: flex;">
-            <div class="col-auto"><label for="repoSearch">Search Repositories:</label></div>
+            <div class="col-auto"><label for="repoSearch">Search : </label></div>
             <div class="col-auto" style="margin-top: -6px; margin-left: 5px;"><input class="form-control" id="repoSearch" type="text" placeholder="Enter repository name" oninput="filterRepositories()"></div>        
         </div>
 
 
-        <div style="margin-left: auto; margin-right: 90px; display: flex;">
-            <div class="col-auto"><label for="reposPerPage">Repos per Page:</label></div>
+        <div style="margin-left: auto; margin-right: 120px; display: flex;">
+            <div class="col-auto"><label for="reposPerPage">Repos per Page : </label></div>
             <div class="col-auto" style="margin-top: -6px; margin-left: 5px;"> <select class="form-select" id="reposPerPage" onchange="updateReposPerPage()">
                 <option value="10">10</option>
                 <option value="20">20</option>
