@@ -6,7 +6,8 @@ This web application allows users to search for a GitHub username and view their
 
 <img width="1280" alt="Screenshot 2024-01-21 at 9 43 50 PM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/8f772751-e76f-4bdb-a6c4-43228bf94959">
 
-<img width="1280" alt="Screenshot 2024-01-21 at 9 43 50 PM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/b56e08a5-e4c7-4f50-978e-d1f42eef891a">
+
+<img width="1280" alt="Screenshot 2024-01-21 at 10 03 20 PM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/21ba29dc-55ab-405e-a1e3-57a1aca53237">
 
 
 ## Getting Started
