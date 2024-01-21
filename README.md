@@ -47,3 +47,9 @@
  - JavaScript (Fetch API)
  - Bootstrap
  - Font Awesome
+
+
+Replace "KavinNishanthan" and "Intern-Task" with your actual GitHub username and repository name. Save the changes to the README.md file.
+
+Once you have committed and pushed these changes to your GitHub repository, users can click on the link in your README to access the live demo.
+
