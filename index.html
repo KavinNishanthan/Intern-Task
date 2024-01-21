@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repositories</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+    <!-- Header Start -->
+    <div>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand">Github Repositories listing page</a>
+              <div class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Enter username" aria-label="Search" id="username" autocomplete="username">
+                <button class="btn btn-outline-success" type="button" onclick="getRepositories()">Search</button>
+              </div>              
+            </div>
+          </nav>
+    </div>
+    <!-- Header End -->
+
+    <div class="profile-section">
+        <div class="image div1">
+            <img src="" alt="" class="profile-img" id="profile-img">
+        </div>
+        <div class="user-details div2">
+            <h1 id="user-name">-</h1>
+            <p id="user-bio">-</p>
+            <span style="display: flex;">
+                <i class="fa-solid fa-location-dot"></i>
+                <p id="user-location"  style="margin-left: 6px; margin-top: -4px;">-</p>
+            </span>
+            <p id="user-twitter"></p>
+        </div>
+    </div>
+
+
+    <div id="loader" class="loader">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+    </div>
+
+    <div style="display: flex; margin-top: 10px;">
+ 
+        <div style="margin-left: 10%; display: flex; margin-top: 4px;">
+            <i class="fa-solid fa-link"></i>
+            <h5 id="user-link" style="margin-top: -5px; margin-left: 6px;">link</h5>
+        </div>
+
+
+        <div style="margin-left: 20px; display: flex;">
+            <div class="col-auto"><label for="repoSearch">Search Repositories:</label></div>
+            <div class="col-auto" style="margin-top: -6px; margin-left: 5px;"><input class="form-control" id="repoSearch" type="text" placeholder="Enter repository name" oninput="filterRepositories()"></div>        
+        </div>
+
+
+        <div style="margin-left: auto; margin-right: 90px; display: flex;">
+            <div class="col-auto"><label for="reposPerPage">Repos per Page:</label></div>
+            <div class="col-auto" style="margin-top: -6px; margin-left: 5px;"> <select class="form-select" id="reposPerPage" onchange="updateReposPerPage()">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select></div>
+
+        </div>
+    </div>
+    
+
+
+    <div class="repo-container">
+        
+    </div>
+
+
+    <!-- Pagination Start -->
+    <div class="pagination">
+        <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+            </li>
+            
+            <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+            </li>
+        </ul>
+        </nav>
+    </div>
+    <!-- Pagination End -->
+
+
+
+    <!-- Start of Script  -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d9e94b6aaa.js" crossorigin="anonymous"></script>
+    <!-- End of Script  -->
+</body>
+</html>
