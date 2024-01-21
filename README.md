@@ -27,7 +27,7 @@
 
  1. Clone the repository
 
- 2. Open the `search.html` file in your preferred web browser.
+ 2. Open the `index.html` file in your preferred web browser.
 
  3. Enter a GitHub username and click "Search" to view the user's profile and repositories
 
