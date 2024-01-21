@@ -3,6 +3,29 @@ let reposPerPage = 10;
 let totalRepos;
 let filteredRepositories = [];
 
+// Add this function to extract parameters from the URL
+function getParameterByName(name, url) {
+  if (!url) url = window.location.href;
+  name = name.replace(/[\[\]]/g, '\\$&');
+  const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+    results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+// Retrieve the username parameter from the URL
+const usernameParam = getParameterByName('username');
+
+// Use the retrieved usernameParam in your existing logic
+if (usernameParam) {
+  // Set the input field value to the retrieved username
+  document.getElementById('username').value = usernameParam;
+
+  // Call the function to fetch and display repositories
+  getRepositories();
+}
+
 async function getRepositories() {
   const username = document.getElementById('username').value;
   const repoSearch = document.getElementById('repoSearch').value;
@@ -62,8 +85,9 @@ function displayRepositories(repositories) {
     const repoCard = document.createElement('div');
     repoCard.classList.add('repo-card');
 
-    const title = document.createElement('h3');
+    const title = document.createElement('h4');
     title.textContent = repo.name;
+    title.style.color = 'blue';
 
     const description = document.createElement('h6');
     description.textContent = repo.description || 'No description provided.';
