@@ -53,7 +53,7 @@
 
  # Live Demo
 
- - You can check out the live demo [here](https://git-scm.com/).
+ - You can check out the live demo [here](https://fetch-git-repos.netlify.app).
 
 
 
