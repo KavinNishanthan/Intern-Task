@@ -1,9 +1,8 @@
-body {
+.bodyy {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    box-sizing: border-box;
+    background-color: #F2F4F4;
 }
 
 .profile-section{
@@ -47,14 +46,16 @@ body {
 }
 
 .repo-card {
-    box-sizing: border-box;
     max-width: 500px;
     height: 170px;
     width: 100%;
     padding: 15px;
     margin-bottom: 20px;
-    border: 1px solid black;
-    justify-content: space-around; 
+    border: 1px solid rgb(168, 167, 167);
+    border-radius: 10px;
+    justify-content: space-around;
+    background-color: #FDFEFE;
+    box-shadow: 4px 4px 10px rgba(161, 160, 160, 0.1);
 }
 
 .pagination{
