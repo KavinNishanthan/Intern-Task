@@ -4,10 +4,11 @@ This web application allows users to search for a GitHub username and view their
 
 ## Screen Shots 
 
-<img width="1280" alt="Screenshot 2024-01-21 at 9 43 50 PM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/8f772751-e76f-4bdb-a6c4-43228bf94959">
+
+<img width="1280" alt="Screenshot 2024-01-21 at 10 06 12 PM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/a696449f-feff-4d8b-833e-50105710cf74">
 
 
-<img width="1280" alt="Screenshot 2024-01-21 at 10 03 20 PM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/21ba29dc-55ab-405e-a1e3-57a1aca53237">
+<img width="1280" alt="Screenshot 2024-01-21 at 10 06 12 PM" src="https://github.com/KavinNishanthan/Intern-Task/assets/106678494/6adbb109-2f9c-4a5b-ba6f-c5cd4b4083de">
 
 
 ## Getting Started
