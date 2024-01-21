@@ -3,7 +3,6 @@ let reposPerPage = 10;
 let totalRepos;
 let filteredRepositories = [];
 
-// Add this function to extract parameters from the URL
 function getParameterByName(name, url) {
   if (!url) url = window.location.href;
   name = name.replace(/[\[\]]/g, '\\$&');
@@ -14,15 +13,11 @@ function getParameterByName(name, url) {
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
-// Retrieve the username parameter from the URL
 const usernameParam = getParameterByName('username');
 
-// Use the retrieved usernameParam in your existing logic
 if (usernameParam) {
-  // Set the input field value to the retrieved username
   document.getElementById('username').value = usernameParam;
 
-  // Call the function to fetch and display repositories
   getRepositories();
 }
 
